@@ -1,0 +1,30 @@
+header {
+  margin: 0;
+  padding: 0;
+}
+header nav {
+  background-color: #650500;
+  color: #ffffff;
+}
+header nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header nav ul li {
+  padding: 1em 1.5em;
+}
+header nav ul li a, header nav ul li a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav ul li:hover {
+  background-color: #ce142f;
+}
+
+main {
+  padding: 1em;
+}
+
+/*# sourceMappingURL=app.component.css.map */

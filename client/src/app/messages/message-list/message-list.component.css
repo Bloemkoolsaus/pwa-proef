@@ -1,0 +1,17 @@
+.message-list-container .message-container {
+  margin-bottom: 1em;
+  padding: 1em;
+  border: solid 1px #aaaaaa;
+  border-radius: 10px;
+}
+.message-list-container .message-container .message-subject {
+  font-weight: bold;
+}
+.message-list-container .message-container .message-date {
+  font-style: italic;
+}
+.message-list-container .message-container .message-content {
+  margin-top: 0.5em;
+}
+
+/*# sourceMappingURL=message-list.component.css.map */

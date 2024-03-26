@@ -1,0 +1,14 @@
+<h1>Messages</h1>
+
+<div class="message-list-container">
+    <div class="message-container" *ngFor="let message of getMessages()">
+        <div class="message-subject">{{ message.subject }}</div>
+        <div class="message-date">{{ message.showDate() }}</div>
+        <div class="message-content">{{ message.message }}</div>
+    </div>
+</div>
+<div>
+    <a class="button" routerLink="/messages/create">
+        New Message
+    </a>
+</div>

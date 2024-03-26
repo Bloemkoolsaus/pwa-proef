@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+}
+
+button, .button {
+  background-color: #222222;
+  color: #eeeeee;
+  padding: 0.6em 1em 0.5em;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */

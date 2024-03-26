@@ -1,0 +1,12 @@
+<h1>New Message</h1>
+<form [formGroup]="createMessageForm" (ngSubmit)="submitCreateMessageForm()">
+    <div>
+        <input type="text" formControlName="subject" placeholder="Subject">
+    </div>
+    <div>
+        <textarea formControlName="content" placeholder="Message"></textarea>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
