@@ -5,11 +5,7 @@ const sqlite3 = require('sqlite3').verbose();
 const app = express();
 
 app.use(cors({ origin: '*' }));
-// app.use(express.urlencoded({extended:true}));
-
-app.get('/', function (request, response) {
-    response.send("hello!");
-});
+app.use(express.static('frontend/client'));
 
 app.get('/messages', function (request, response) {
     let messages = [];
