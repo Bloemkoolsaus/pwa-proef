@@ -6,7 +6,7 @@ import {MessageModel} from "./message.model";
     providedIn: 'root'
 })
 export class MessageApiClient {
-    host: string = 'http://localhost:3000';
+    host: string = 'https://pwa-proef.bloemkoolsaus.nl';
 
     constructor(private http: HttpClient) { }
 
