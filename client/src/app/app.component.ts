@@ -1,7 +1,10 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {RouterLink, RouterLinkActive, RouterModule, RouterOutlet} from '@angular/router';
 import {CommonModule} from "@angular/common";
 import {HttpClientModule} from "@angular/common/http";
+import {SwPush} from "@angular/service-worker";
+import {MessageApiClient} from "./messages/message.api-client";
+
 
 @Component({
   selector: 'app-root',
@@ -11,5 +14,5 @@ import {HttpClientModule} from "@angular/common/http";
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'App Root';
+  title = 'PWA-Proef';
 }

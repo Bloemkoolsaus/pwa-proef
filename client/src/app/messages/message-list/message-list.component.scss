@@ -1,4 +1,7 @@
 .message-list-container {
+  max-height: 60vh;
+  overflow: auto;
+
   .message-container {
     margin-bottom: 1em;
     padding: 1em;

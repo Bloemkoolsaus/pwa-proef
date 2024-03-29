@@ -243,12 +243,12 @@ License: "MIT"
 
 
 --------------------------------------------------------------------------------
-Package: @angular/forms
+Package: @angular/service-worker
 License: "MIT"
 
 
 --------------------------------------------------------------------------------
-Package: @angular/service-worker
+Package: @angular/forms
 License: "MIT"
 
 

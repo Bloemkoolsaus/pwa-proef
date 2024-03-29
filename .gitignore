@@ -5,3 +5,6 @@
 /client/dist/
 /server/.idea/
 /server/node_modules/
+/server/sqldiff.exe
+/server/sqlite3.exe
+/server/sqlite3_analyzer.exe
