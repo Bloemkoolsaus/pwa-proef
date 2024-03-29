@@ -6,8 +6,8 @@ import {MessageModel} from "./message.model";
     providedIn: 'root'
 })
 export class MessageApiClient {
-    //host: string = 'https://pwa-proef.bloemkoolsaus.nl';
-    host: string = 'http://localhost:3000';
+    host: string = 'https://pwa-proef.bloemkoolsaus.nl';
+    // host: string = 'http://localhost:3000';
     readonly VAPID_PUBLIC_KEY = 'BAruQj-_e911eeANHd12pVboOxcFC59AX1QHZp-vzUbAcOWO4GRYtYhhmsvagulIPcKh-6kCy0wk_1eJEHm_QTc';
 
     constructor(private http: HttpClient) { }
