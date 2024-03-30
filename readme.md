@@ -38,3 +38,5 @@ Je krijgt een VAPID key pair
   privateKey: '<PRIVATE_KEY>'
 }
 ```
+
+De push notificaties werken alleen als de server via https draait!
