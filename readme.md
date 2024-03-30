@@ -1,3 +1,5 @@
+Dit is een proefje om te kijken hoe je van een Angular app met een NodeJS back-end een pwa maakt en push notificaties kan sturen naar mobiele telefoons.
+
 # Maak van Angular een PWA
 
 Bronnen:
@@ -7,7 +9,6 @@ Bronnen:
 Na het toevoegen van `@angular/pwa` moest ik in de webmanifest bij de icons de regels `"purpose": "maskable any"` weg halen. Ik begrijp (nog) niet waarom.
 
 De app was nu installeerbaar op mijn telefoon.
-
 
 
 # Push notifications
